@@ -1,4 +1,4 @@
-# GraphQL API made using Golang
+# GraphQL Go
 > Houses Back End Code for GraphQL API written in Go lang
 
 [![Custom Badge](https://img.shields.io/badge/Author-Abhijit%20Kar-brightgreen.svg)](http://www.abhijit-kar.com/)
@@ -8,9 +8,8 @@
 ### Sign into gcloud
 gcloud auth application-default login
 
-### Running It
-CD into Server folder
+### Dev deploy
 dev_appserver.py app.yaml
 
-### Deploying It
+### Prod deploy
 gcloud app deploy --version dev
